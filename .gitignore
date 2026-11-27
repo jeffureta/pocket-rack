@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.swiftpm/
+xcuserdata/
+DerivedData/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+.env
+*.ipa
+PocketRackApp/build/
