@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* PocketRackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000010000000000000001 /* PocketRackApp.swift */; };
+		A10000020000000000000001 /* ServerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000001 /* ServerController.swift */; };
+		A10000030000000000000001 /* RootSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000030000000000000001 /* RootSplitView.swift */; };
+		A10000040000000000000001 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000040000000000000001 /* DashboardView.swift */; };
+		A10000050000000000000001 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000050000000000000001 /* StorageView.swift */; };
+		A10000060000000000000001 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000060000000000000001 /* LogsView.swift */; };
+		A10000070000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000070000000000000001 /* SettingsView.swift */; };
+		A10000080000000000000001 /* KioskOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000080000000000000001 /* KioskOverlayView.swift */; };
+		A20000010000000000000001 /* PocketRackCore in Frameworks */ = {isa = PBXBuildFile; productRef = P20000010000000000000001 /* PocketRackCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000010000000000000001 /* PocketRack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketRack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000010000000000000001 /* PocketRackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketRackApp.swift; sourceTree = "<group>"; };
+		B10000020000000000000001 /* ServerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerController.swift; sourceTree = "<group>"; };
+		B10000030000000000000001 /* RootSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSplitView.swift; sourceTree = "<group>"; };
+		B10000040000000000000001 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B10000050000000000000001 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
+		B10000060000000000000001 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		B10000070000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000080000000000000001 /* KioskOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskOverlayView.swift; sourceTree = "<group>"; };
+		B10000090000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000010000000000000001 /* PocketRackCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000010000000000000001 /* PocketRack */,
+				G20000010000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000010000000000000001 /* PocketRack */ = {
+			isa = PBXGroup;
+			children = (
+				B10000010000000000000001 /* PocketRackApp.swift */,
+				B10000090000000000000001 /* Info.plist */,
+				G10000020000000000000001 /* ViewModels */,
+				G10000030000000000000001 /* Views */,
+			);
+			path = PocketRack;
+			sourceTree = "<group>";
+		};
+		G10000020000000000000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000000000001 /* ServerController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G10000030000000000000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10000030000000000000001 /* RootSplitView.swift */,
+				B10000040000000000000001 /* DashboardView.swift */,
+				B10000050000000000000001 /* StorageView.swift */,
+				B10000060000000000000001 /* LogsView.swift */,
+				B10000070000000000000001 /* SettingsView.swift */,
+				B10000080000000000000001 /* KioskOverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G20000010000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000010000000000000001 /* PocketRack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000010000000000000001 /* PocketRack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000010000000000000001 /* Build configuration list for PBXNativeTarget "PocketRack" */;
+			buildPhases = (
+				S10000010000000000000001 /* Sources */,
+				F10000010000000000000001 /* Frameworks */,
+				R10000010000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketRack;
+			packageProductDependencies = (
+				P20000010000000000000001 /* PocketRackCore */,
+			);
+			productName = PocketRack;
+			productReference = B00000010000000000000001 /* PocketRack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C10000010000000000000001 /* Build configuration list for PBXProject "PocketRack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000010000000000000001;
+			packageReferences = (
+				P30000010000000000000001 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = G20000010000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000010000000000000001 /* PocketRack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10000010000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* PocketRackApp.swift in Sources */,
+				A10000020000000000000001 /* ServerController.swift in Sources */,
+				A10000030000000000000001 /* RootSplitView.swift in Sources */,
+				A10000040000000000000001 /* DashboardView.swift in Sources */,
+				A10000050000000000000001 /* StorageView.swift in Sources */,
+				A10000060000000000000001 /* LogsView.swift in Sources */,
+				A10000070000000000000001 /* SettingsView.swift in Sources */,
+				A10000080000000000000001 /* KioskOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D10000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D10000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D20000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketRack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffureta.PocketRack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D20000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketRack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffureta.PocketRack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10000010000000000000001 /* Build configuration list for PBXProject "PocketRack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10000010000000000000001 /* Debug */,
+				D10000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20000010000000000000001 /* Build configuration list for PBXNativeTarget "PocketRack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20000010000000000000001 /* Debug */,
+				D20000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		P30000010000000000000001 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		P20000010000000000000001 /* PocketRackCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = P30000010000000000000001 /* XCLocalSwiftPackageReference ".." */;
+			productName = PocketRackCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = P10000010000000000000001 /* Project object */;
+}
